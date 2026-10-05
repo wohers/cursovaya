@@ -1,0 +1,79 @@
+.osnova_shapka {
+  width: 100%;
+  background-color: #1c9aea;
+}
+
+.knopki_many {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 14px 24px;
+}
+
+.header_menu,
+.header_auth {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.header_menu {
+  justify-content: flex-start;
+}
+
+.header_auth {
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.knopka_da {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 4px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease;
+  white-space: nowrap;
+}
+
+.knopka_da:hover {
+  color: #e6f2fb;
+  border-bottom-color: #fff;
+}
+
+.logo {
+  height: 44px;
+  width: auto;
+  display: block;
+  flex-shrink: 0;
+}
+
+
+@media (max-width: 768px) {
+  .knopki_many {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px 16px;
+  }
+
+  .header_menu,
+  .header_auth {
+    flex: 1 1 100%;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    order: -1;
+    height: 36px;
+  }
+
+  .knopka_da {
+    font-size: 15px;
+  }
+}

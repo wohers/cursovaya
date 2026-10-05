@@ -1,0 +1,11 @@
+.slova_snizy {
+  width: 100%;
+  margin: 0;
+  padding: 20px 24px;
+  background-color: #1c9aea;
+  color: #fff;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
+}

@@ -1,0 +1,128 @@
+/* ===== Страница ===== */
+.login_page {
+  min-height: calc(100vh - 72px); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #0d1b2a;
+  color: #fff;
+  font-family: Inter, Arial, sans-serif;
+}
+
+/* ===== Карточка ===== */
+.login_card {
+  width: 100%;
+  max-width: 420px;
+  padding: 32px 28px;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* ===== Заголовок ===== */
+.login_title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.login_subtitle {
+  margin: -8px 0 4px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+  color: #9fb4c7;
+}
+
+/* ===== Поля ===== */
+.login_field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.login_label {
+  font-size: 14px;
+  color: #c7d5e3;
+}
+
+.login_input {
+  width: 100%;
+  padding: 10px 14px;
+  font-family: inherit;
+  font-size: 15px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.login_input::placeholder {
+  color: #6f8299;
+}
+
+.login_input:focus {
+  border-color: #1c9aea;
+}
+
+/* ===== Ошибка ===== */
+.login_error {
+  margin: 0;
+  font-size: 14px;
+  color: #ff8a8a;
+}
+
+/* ===== Кнопка ===== */
+.login_button {
+  width: 100%;
+  padding: 12px 24px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1c9aea;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.login_button:hover {
+  background-color: #1577b8;
+}
+
+/* ===== Нижняя ссылка ===== */
+.login_footer {
+  margin: 4px 0 0;
+  font-size: 14px;
+  text-align: center;
+  color: #9fb4c7;
+}
+
+.login_footer a {
+  color: #1c9aea;
+  text-decoration: none;
+}
+
+.login_footer a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Адаптив ===== */
+@media (max-width: 480px) {
+  .login_card {
+    padding: 24px 20px;
+  }
+
+  .login_title {
+    font-size: 24px;
+  }
+}

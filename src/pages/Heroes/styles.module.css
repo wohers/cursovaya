@@ -1,0 +1,81 @@
+p{
+    color: rgb(37, 37, 37);
+}
+.hero_name{
+  color: rgb(37, 37, 37);
+}
+
+/* ===== Блоки-карточки героев ===== */
+.niznekamsk {
+  max-width: 1100px;
+  margin: 60px auto 0;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.niznekamsk_text {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.niznekamsk_yacheika_text {
+  flex: 1;
+  font-size: 15px;
+  line-height: 1.55;
+  color: #c7d5e3;
+}
+
+
+/* ===== Последняя карточка без фото ===== */
+.last_korobka_nofoto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.last_korbka_text1 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.last_korbka_text2 {
+  font-size: 15px;
+  color: #9fb4c7;
+}
+
+.last_korbka_text3 {
+  font-size: 15px;
+  color: #9fb4c7;
+}
+
+.last_korbka_text4 {
+  margin-top: 6px;
+  font-size: 15px;
+  line-height: 1.55;
+  color: #c7d5e3;
+}
+
+/* ===== Адаптив ===== */
+@media (max-width: 768px) {
+  .niznekamsk {
+    margin-top: 32px;
+    padding: 18px;
+  }
+
+  .niznekamsk_text {
+    flex-direction: column;
+    text-align: center;
+    gap: 14px;
+  }
+
+  .niznekamsk_text img {
+    max-width: 100%;
+    height: auto;
+  }
+}
