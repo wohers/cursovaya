@@ -10,6 +10,7 @@ import { Heroes } from "../../pages/Heroes/Heroes";
 import { ProtectedRoute } from "./ProtectedRoute";
 import { Login } from "../../pages/Login/Login";
 import { Register } from "../../pages/Register/Register";
+import { Progress } from "../../pages/Progress/Progress";
 
 export const AppRouter = memo(() => {
   const router = useMemo(
@@ -43,6 +44,10 @@ export const AppRouter = memo(() => {
             {
               path: "/register",
               element: <Register />,
+            },
+            {
+              path: "/progress",
+              element: <Progress />,
             },
           ],
         },
