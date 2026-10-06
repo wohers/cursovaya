@@ -30,6 +30,7 @@ export function Login() {
       // успех
       if (response.ok && data.data?.token) {
         localStorage.setItem("token", data.data.token);
+        localStorage.setItem("user", JSON.stringify(data.data.user));
         navigate("/home");
         return;
       }

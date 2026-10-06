@@ -15,7 +15,31 @@
 }
 
 p {
-    color: #d6e2ee;
+  color: #d6e2ee;
+}
+
+.logout {
+  padding: 8px 16px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.logout:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.55);
+}
+
+.logout:active {
+  background-color: rgba(255, 255, 255, 0.18);
 }
 
 /* ===== Заголовок страницы ===== */

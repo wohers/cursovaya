@@ -38,6 +38,7 @@
   border-bottom: 2px solid transparent;
   transition: border-color 0.15s ease, color 0.15s ease;
   white-space: nowrap;
+  cursor: pointer;
 }
 
 .knopka_da:hover {
