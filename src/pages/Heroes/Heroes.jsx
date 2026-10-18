@@ -35,7 +35,7 @@ export function Heroes() {
           <div className={styles.niznekamsk_text}>
             <img src={url+hero.photo} alt={hero.name} />
             <div className={styles.niznekamsk_yacheika_text}>
-              <p>
+              <p className={styles.hero_text}>
                 <b className={styles.hero_name}>{hero.name}.</b> {hero.description}
               </p>
             </div>

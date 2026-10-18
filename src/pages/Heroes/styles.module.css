@@ -1,7 +1,5 @@
-p{
-    color: rgb(37, 37, 37);
-}
-.hero_name{
+
+.hero_text {
   color: rgb(37, 37, 37);
 }
 
@@ -20,13 +18,14 @@ p{
   display: flex;
   align-items: center;
   gap: 24px;
+  color: rgb(37, 37, 37);
 }
 
 .niznekamsk_yacheika_text {
   flex: 1;
   font-size: 15px;
   line-height: 1.55;
-  color: #c7d5e3;
+  color: rgb(37, 37, 37);
 }
 
 

@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import logo from "../../../assets/logo.png";
+import logo from "../../../assets/nk-logo.webp";
 import { NavLink, useNavigate, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 
@@ -64,7 +64,7 @@ export function Header() {
         <div className={styles.header_auth}>
           {user ? (
             <>
-              <span className={styles.knopka_da}>{user.first_name}</span>
+              <span className={styles.knopka_da}>Здравствуйте, {user.first_name}!</span>
               <a onClick={handleLogout} className={styles.knopka_da}>
                 Выйти
               </a>
